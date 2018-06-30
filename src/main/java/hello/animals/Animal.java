@@ -1,4 +1,5 @@
-import java.sql.SQLOutput;
+package hello.animals;
+
 
 public class Animal {
 
@@ -16,5 +17,9 @@ public class Animal {
     public void move(){
         this.health--;
         System.out.println(this.health);
+    }
+
+    public static int getNumber(){
+        return numberOfAnimals;
     }
 }
