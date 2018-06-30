@@ -1,3 +1,3 @@
 # Acolpani
 
-hello.animals.Hello Github
+Hello Github
